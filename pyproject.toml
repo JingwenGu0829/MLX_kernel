@@ -1,0 +1,9 @@
+[project]
+name = "mlx-kernel-agent"
+version = "0.1.0"
+description = "Agent-designed fused Metal kernels for bs=1 decode on MLX"
+requires-python = ">=3.12"
+dependencies = [
+    "mlx>=0.32.3",
+    "numpy>=2.5.4",
+]
